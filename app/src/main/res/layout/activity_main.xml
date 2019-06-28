@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/gmbr"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:paddingTop="50sp"
+        android:src="@drawable/unpak" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/masukan_username"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/username2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:drawableLeft="@drawable/ic_person"/>
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Masukan Password :"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/password2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_lock"/>
+
+    <CheckBox
+        android:id="@+id/boxx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="show password"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/ic_send"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Register"
+        android:textSize="15sp"
+        android:drawableLeft="@drawable/ic_work"/>
+
+    <TextView
+        android:id="@+id/tampil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
